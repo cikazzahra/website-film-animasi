@@ -1,0 +1,134 @@
+<html>
+<head>
+<title>Website Film Animasi Terkenal | Registrasi</title>
+</head>
+
+<body>
+
+<h1>Selamat Datang di Website Film Animasi Terkenal</h1>
+<br>
+
+<h3>Menu</h3>
+<hr width=55% size=5 color="pink" align=left>
+<br>
+
+<pre>
+    <a href="Tugas_1_Beranda.html">Beranda</a>    |    <a href="Tugas_1_Judul_Film.html">Judul Film</a>    |    <a href="Tugas_1_Deskripsi_Film.html">Sinopsis & Trailer</a>    |    <a href="Tugas_1_Profil.html">Profil</a>    |    <a href="Tugas_1_Paket.html">Paket Berlangganan</a>
+</pre>
+
+<br>
+<hr width=55% size=5 color="pink" align=left>
+<br>
+
+<h2>Registrasi Pelanggan</h2>
+
+<form>
+
+<table cellpadding="5">
+<tr>
+<td>Nama Lengkap:</td>
+<td><input type="text" name="nama"></td>
+</tr>
+
+<tr>
+<td>Email:</td>
+<td><input type="text" name="email"></td>
+</tr>
+
+<tr>
+<td>Password:</td>
+<td><input type="password" name="password"></td>
+</tr>
+
+<tr>
+<td>Pilih Paket:</td>
+<td>
+<select name="paket">
+    <option>Basic</option>
+    <option>Standar</option>
+    <option>Premium</option>
+</select>
+</td>
+</tr>
+</table>
+
+<br><br>
+
+```html
+<table border="0" cellpadding="5" cellspacing="0">
+
+<tr>
+<td>Pembayaran :</td>
+<td>
+<input type="radio" name="pembayaran" value="kartu"
+onclick="document.getElementById('nomorKartu').disabled=false">
+<img src="https://images.seeklogo.com/logo-png/14/1/visa-logo-png_seeklogo-149698.png" alt="Visa" width="60">
+<img src="https://upload.wikimedia.org/wikipedia/commons/2/2a/Mastercard-logo.svg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" alt="Mastercard" width="60">
+Debit/Kredit
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+Nomor Kartu :
+<input type="text" name="nomor_kartu" id="nomorKartu" disabled>
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="radio" name="pembayaran" value="dana"
+onclick="document.getElementById('nomorKartu').disabled=true">
+<img src="https://www.linkqu.id/wp-content/uploads/2021/07/filedownload.png" alt="DANA" width="50">
+DANA
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="radio" name="pembayaran" value="ovo"
+onclick="document.getElementById('nomorKartu').disabled=true">
+<img src="https://tse4.mm.bing.net/th/id/OIP.aRhGhJUsX8nNKogOy3_aawHaE3?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="OVO" width="50">
+OVO
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="radio" name="pembayaran" value="gopay"
+onclick="document.getElementById('nomorKartu').disabled=true">
+<img src="https://toppng.com/public/uploads/preview/gopay-logo-png-image-116028322425nx9mi76v1.png" alt="GoPay" width="50">
+GoPay
+</td>
+</tr>
+
+<tr>
+<td></td>
+<td>
+<input type="radio" name="pembayaran" value="shopeepay"
+onclick="document.getElementById('nomorKartu').disabled=true">
+<img src="https://cdn.freelogovectors.net/wp-content/uploads/2023/10/shoppeepay-logo-02-freelogovectors.net_-640x474.png" alt="ShopeePay" width="50">
+ShopeePay
+</td>
+</tr>
+
+</table>
+```
+
+<br><br>
+
+<input type="submit" value="Submit">
+
+</form>
+
+<br>
+<hr size=2>
+
+&copy; Admin Web, Azahra Cika Fasya
+
+</body>
+</html>
